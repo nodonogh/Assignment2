@@ -11,15 +11,16 @@ import AVFoundation
 
 class NegSoundboardViewController: UIViewController {
     
+    //load in appropriate contents and set audio players
     var player = AVAudioPlayer()
     var player2 = AVAudioPlayer()
     let negOpening = Bundle.main.path(forResource: "neg_op", ofType: "mp3", inDirectory: "songs")
     let negEnding = Bundle.main.path(forResource: "neg_2op", ofType: "mp3", inDirectory: "songs")
     var isPlaying = false
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         do {
             try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: negOpening!))
@@ -33,17 +34,20 @@ class NegSoundboardViewController: UIViewController {
             print("Could not load file")
         }
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
     @IBAction func PlayOP1(_ sender: Any) {
+        //If the button is pressed and isPlaying equals false...
         if isPlaying == false {
+            //Play the AV player
             player.play()
             isPlaying = true
         }else{
+            //Pause the AV Player
             player.pause()
             isPlaying = false
         }

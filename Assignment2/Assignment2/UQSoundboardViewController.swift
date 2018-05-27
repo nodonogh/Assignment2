@@ -11,7 +11,7 @@ import AVFoundation
 
 class UQSoundboardViewController: UIViewController {
     
-    //var audioPlayer : AVAudioPlayer?
+    //load in appropriate contents and set audio players
     var player = AVAudioPlayer()
     var player2 = AVAudioPlayer()
     let uqOpening = Bundle.main.path(forResource: "uq_op", ofType: "mp3", inDirectory: "songs")
@@ -41,14 +41,16 @@ class UQSoundboardViewController: UIViewController {
     }
     
     @IBAction func PlayOP(_ sender: UIButton) {
+        //If the button is pressed and isPlaying equals false...
         if isPlaying == false {
+            //Play the AV player
             player.play()
             isPlaying = true
         }else{
+            //Pause the AV Player
             player.pause()
             isPlaying = false
         }
-        
     }
     
     @IBAction func PlayEP(_ sender: UIButton) {

@@ -13,6 +13,7 @@ class UQTriviaResultsViewController: UIViewController {
     @IBOutlet weak var UQComment: UILabel!
     @IBOutlet weak var UQTriviaResult: UILabel!
     
+    //Set variable to pass data into from trivia view controller
     var noCorrect = 0
     var total = 0
 
@@ -20,6 +21,7 @@ class UQTriviaResultsViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        //Determine how the user went
         UQTriviaResult.text = "You got \(noCorrect) out of \(total) correct"
         
         var percentRight = Double(noCorrect) / Double(total)

@@ -21,6 +21,7 @@ class UQMemoryViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    //Set the images array
     var imgs : [UIImage] = [
         UIImage(named: "uqMemorydef.jpg")!,
         UIImage(named: "uqMem1.jpg")!,
@@ -29,14 +30,17 @@ class UQMemoryViewController: UIViewController {
         UIImage(named: "uqMem4.jpg")!
     ]
     
+    //rotate the images
     func rotate(_ sender : UIButton ) {
         UIView.animate(withDuration: 0.75, animations: {
             //sender.layer.transform = CATransform3DMakeRotation(22.0/7, 0, 1, 0)
         })
     }
     
+    //ensure the application can determine the last button that was tapped, for comparison reasons
     var lastButton : UIButton?
     
+    //Set the buttons into an array, so it is eaily read by the button pressed function
     @IBOutlet var buttons: [UIButton]!
     
     @IBAction func ButtonPressed(_ sender: UIButton) {

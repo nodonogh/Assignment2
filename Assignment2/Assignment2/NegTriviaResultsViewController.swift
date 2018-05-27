@@ -10,9 +10,11 @@ import UIKit
 
 class NegTriviaResultsViewController: UIViewController {
 
+    //set the IBOutlets for the results
     @IBOutlet weak var negComment: UILabel!
     @IBOutlet weak var negTriviaResult: UILabel!
     
+    //Set variable to pass data into from trivia view controller
     var noCorrect = 0
     var total = 0
     
@@ -20,6 +22,7 @@ class NegTriviaResultsViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        //Determine how the user went
         negTriviaResult.text = "You got \(noCorrect) out of \(total) correct"
         
         var percentRight = Double(noCorrect) / Double(total)

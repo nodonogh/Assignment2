@@ -10,6 +10,7 @@ import UIKit
 
 class UQTriviaViewController: UIViewController {
     
+    //Set IBOUtlets
     @IBOutlet weak var trvQuestion: UITextView!
     @IBOutlet weak var answer1: UIButton!
     @IBOutlet weak var answer2: UIButton!
@@ -17,12 +18,14 @@ class UQTriviaViewController: UIViewController {
     @IBOutlet weak var answer4: UIButton!
     @IBOutlet weak var trvProgress: UILabel!
     
+    //Set the structure of the questions
     struct Question {
         let question : String
         let answers : [String]
         let correctAnswer : Int
     }
     
+    //Populate the question array
     var questions : [Question] = [
         Question(
             question: "What is Touta Konoe's species?",
@@ -66,6 +69,7 @@ class UQTriviaViewController: UIViewController {
             correctAnswer: 1)
     ]
     
+    //Determine what question the player is up to
     var currentQuestion: Question?
     var currentQuestionPosition = 0
     var noCorrect = 0
@@ -83,6 +87,7 @@ class UQTriviaViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    //Check the answer when button is pressed
     @IBAction func trvAnswer1(_ sender: Any) {
         checkAnswer(idx: 0)
     }
@@ -106,6 +111,7 @@ class UQTriviaViewController: UIViewController {
         loadNextQuestion()
     }
     
+    //load the next question
     func loadNextQuestion() {
         if(currentQuestionPosition + 1 < questions.count){
             currentQuestionPosition += 1
@@ -116,6 +122,7 @@ class UQTriviaViewController: UIViewController {
         }
     }
     
+    //Set the display to show relevant questions and answers
     func setQuestion(){
         trvQuestion.text = currentQuestion!.question
         answer1.setTitle(currentQuestion!.answers[0], for: .normal)
@@ -125,6 +132,7 @@ class UQTriviaViewController: UIViewController {
         trvProgress.text = "\(currentQuestionPosition + 1)/\(questions.count)"
     }
     
+    //segue to the results
     override func prepare(for segue: UIStoryboardSegue, sender: Any?){
         if (segue.identifier == "segueUQTriviaResults"){
             let vc = segue.destination as! UQTriviaResultsViewController

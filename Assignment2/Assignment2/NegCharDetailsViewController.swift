@@ -28,6 +28,7 @@ class NegCharDetailsViewController: UIViewController {
     @IBOutlet weak var charImg: UIImageView!
     
     override func viewWillAppear(_ animated: Bool){
+        //if the characters has not loaded in, load them
         if character != nil {
             charName.text = character!.charName
             charDetails.text = character!.charDetails
