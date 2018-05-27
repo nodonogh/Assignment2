@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD24140520B7F245001560F1 /* UQTriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD24140420B7F245001560F1 /* UQTriviaViewController.swift */; };
+		AD24140720B7F38B001560F1 /* UQTriviaResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD24140620B7F38B001560F1 /* UQTriviaResultsViewController.swift */; };
+		AD2EC48620ABED5E0071E34D /* NegCharacters.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2EC48520ABED5D0071E34D /* NegCharacters.swift */; };
+		AD2EC48820ABEF800071E34D /* NegCharactersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2EC48720ABEF800071E34D /* NegCharactersTableViewController.swift */; };
+		AD2EC48A20ABF0B50071E34D /* NegCharDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2EC48920ABF0B50071E34D /* NegCharDetailsViewController.swift */; };
+		AD2FD6C620AFE59A00A2303A /* NegMemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2FD6C520AFE59A00A2303A /* NegMemoryViewController.swift */; };
+		AD4DA08720B02BF900A3BC41 /* UQMemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4DA08620B02BF900A3BC41 /* UQMemoryViewController.swift */; };
+		AD824D1B20B83E7800DB6619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD824D1720B83E7700DB6619 /* Main.storyboard */; };
+		AD824D1C20B83E7800DB6619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD824D1920B83E7800DB6619 /* LaunchScreen.storyboard */; };
 		AD8F8DD6208C41BB00D3BEEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F8DD5208C41BB00D3BEEE /* AppDelegate.swift */; };
 		AD8F8DD8208C41BB00D3BEEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F8DD7208C41BB00D3BEEE /* ViewController.swift */; };
-		AD8F8DDB208C41BB00D3BEEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8F8DD9208C41BB00D3BEEE /* Main.storyboard */; };
 		AD8F8DDD208C41BB00D3BEEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD8F8DDC208C41BB00D3BEEE /* Assets.xcassets */; };
-		AD8F8DE0208C41BB00D3BEEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD8F8DDE208C41BB00D3BEEE /* LaunchScreen.storyboard */; };
 		AD8F8DEB208C41BC00D3BEEE /* Assignment2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F8DEA208C41BC00D3BEEE /* Assignment2Tests.swift */; };
 		AD8F8DF6208C41BC00D3BEEE /* Assignment2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8F8DF5208C41BC00D3BEEE /* Assignment2UITests.swift */; };
+		AD9404D720B7C5D200A7D9A1 /* NegTriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9404D620B7C5D200A7D9A1 /* NegTriviaViewController.swift */; };
+		AD9404D920B7C94C00A7D9A1 /* NegTriviaResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9404D820B7C94C00A7D9A1 /* NegTriviaResultsViewController.swift */; };
+		B214FA5C20AAB5BA00B67237 /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B214FA5B20AAB5BA00B67237 /* Characters.swift */; };
+		B214FA5E20AAD2CB00B67237 /* T-UQCharDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B214FA5D20AAD2CB00B67237 /* T-UQCharDetailsViewController.swift */; };
+		B260016320B3F61D00E3C93A /* UQSoundboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260016220B3F61D00E3C93A /* UQSoundboardViewController.swift */; };
+		B260016820B3F88400E3C93A /* songs in Resources */ = {isa = PBXBuildFile; fileRef = B260016720B3F88400E3C93A /* songs */; };
+		B260016D20B3FDFC00E3C93A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B260016C20B3FDFC00E3C93A /* AVFoundation.framework */; };
+		B260016F20B40C7B00E3C93A /* NegSoundboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B260016E20B40C7B00E3C93A /* NegSoundboardViewController.swift */; };
+		B2C2A00E20A18045006950B6 /* launchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C2A00D20A18045006950B6 /* launchScreenViewController.swift */; };
+		B2C2A01020A1805C006950B6 /* taskScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C2A00F20A1805C006950B6 /* taskScreenViewController.swift */; };
+		B2C2A01220A1824E006950B6 /* taskScreen2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C2A01120A1824E006950B6 /* taskScreen2ViewController.swift */; };
+		B2C2A01620A18786006950B6 /* UQCharactersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C2A01520A18786006950B6 /* UQCharactersTableViewController.swift */; };
+		B2C2A01820A18D0E006950B6 /* CharactersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C2A01720A18D0E006950B6 /* CharactersTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +54,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD24140420B7F245001560F1 /* UQTriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UQTriviaViewController.swift; sourceTree = "<group>"; };
+		AD24140620B7F38B001560F1 /* UQTriviaResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UQTriviaResultsViewController.swift; sourceTree = "<group>"; };
+		AD2EC48520ABED5D0071E34D /* NegCharacters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegCharacters.swift; sourceTree = "<group>"; };
+		AD2EC48720ABEF800071E34D /* NegCharactersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegCharactersTableViewController.swift; sourceTree = "<group>"; };
+		AD2EC48920ABF0B50071E34D /* NegCharDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegCharDetailsViewController.swift; sourceTree = "<group>"; };
+		AD2FD6C520AFE59A00A2303A /* NegMemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegMemoryViewController.swift; sourceTree = "<group>"; };
+		AD4DA08620B02BF900A3BC41 /* UQMemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UQMemoryViewController.swift; sourceTree = "<group>"; };
+		AD824D1820B83E7700DB6619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD824D1A20B83E7800DB6619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD8F8DD2208C41BB00D3BEEE /* Assignment2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8F8DD5208C41BB00D3BEEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD8F8DD7208C41BB00D3BEEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AD8F8DDA208C41BB00D3BEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD8F8DDC208C41BB00D3BEEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AD8F8DDF208C41BB00D3BEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD8F8DE1208C41BB00D3BEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD8F8DE6208C41BC00D3BEEE /* Assignment2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8F8DEA208C41BC00D3BEEE /* Assignment2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment2Tests.swift; sourceTree = "<group>"; };
@@ -47,6 +74,19 @@
 		AD8F8DF1208C41BC00D3BEEE /* Assignment2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Assignment2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD8F8DF5208C41BC00D3BEEE /* Assignment2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment2UITests.swift; sourceTree = "<group>"; };
 		AD8F8DF7208C41BC00D3BEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD9404D620B7C5D200A7D9A1 /* NegTriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegTriviaViewController.swift; sourceTree = "<group>"; };
+		AD9404D820B7C94C00A7D9A1 /* NegTriviaResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegTriviaResultsViewController.swift; sourceTree = "<group>"; };
+		B214FA5B20AAB5BA00B67237 /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		B214FA5D20AAD2CB00B67237 /* T-UQCharDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "T-UQCharDetailsViewController.swift"; sourceTree = "<group>"; };
+		B260016220B3F61D00E3C93A /* UQSoundboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UQSoundboardViewController.swift; sourceTree = "<group>"; };
+		B260016720B3F88400E3C93A /* songs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = songs; sourceTree = "<group>"; };
+		B260016C20B3FDFC00E3C93A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B260016E20B40C7B00E3C93A /* NegSoundboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegSoundboardViewController.swift; sourceTree = "<group>"; };
+		B2C2A00D20A18045006950B6 /* launchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = launchScreenViewController.swift; sourceTree = "<group>"; };
+		B2C2A00F20A1805C006950B6 /* taskScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskScreenViewController.swift; sourceTree = "<group>"; };
+		B2C2A01120A1824E006950B6 /* taskScreen2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = taskScreen2ViewController.swift; sourceTree = "<group>"; };
+		B2C2A01520A18786006950B6 /* UQCharactersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UQCharactersTableViewController.swift; sourceTree = "<group>"; };
+		B2C2A01720A18D0E006950B6 /* CharactersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B260016D20B3FDFC00E3C93A /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +122,7 @@
 				AD8F8DE9208C41BC00D3BEEE /* Assignment2Tests */,
 				AD8F8DF4208C41BC00D3BEEE /* Assignment2UITests */,
 				AD8F8DD3208C41BB00D3BEEE /* Products */,
+				B260016B20B3FDFC00E3C93A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +141,28 @@
 			children = (
 				AD8F8DD5208C41BB00D3BEEE /* AppDelegate.swift */,
 				AD8F8DD7208C41BB00D3BEEE /* ViewController.swift */,
-				AD8F8DD9208C41BB00D3BEEE /* Main.storyboard */,
+				B260016720B3F88400E3C93A /* songs */,
+				AD824D1920B83E7800DB6619 /* LaunchScreen.storyboard */,
+				AD824D1720B83E7700DB6619 /* Main.storyboard */,
+				B260016E20B40C7B00E3C93A /* NegSoundboardViewController.swift */,
+				AD24140620B7F38B001560F1 /* UQTriviaResultsViewController.swift */,
+				AD24140420B7F245001560F1 /* UQTriviaViewController.swift */,
+				AD9404D820B7C94C00A7D9A1 /* NegTriviaResultsViewController.swift */,
+				AD9404D620B7C5D200A7D9A1 /* NegTriviaViewController.swift */,
+				B260016220B3F61D00E3C93A /* UQSoundboardViewController.swift */,
+				AD4DA08620B02BF900A3BC41 /* UQMemoryViewController.swift */,
+				AD2FD6C520AFE59A00A2303A /* NegMemoryViewController.swift */,
+				AD2EC48920ABF0B50071E34D /* NegCharDetailsViewController.swift */,
+				AD2EC48720ABEF800071E34D /* NegCharactersTableViewController.swift */,
+				B214FA5D20AAD2CB00B67237 /* T-UQCharDetailsViewController.swift */,
+				B214FA5B20AAB5BA00B67237 /* Characters.swift */,
+				AD2EC48520ABED5D0071E34D /* NegCharacters.swift */,
+				B2C2A00D20A18045006950B6 /* launchScreenViewController.swift */,
+				B2C2A01120A1824E006950B6 /* taskScreen2ViewController.swift */,
+				B2C2A00F20A1805C006950B6 /* taskScreenViewController.swift */,
+				B2C2A01520A18786006950B6 /* UQCharactersTableViewController.swift */,
+				B2C2A01720A18D0E006950B6 /* CharactersTableViewCell.swift */,
 				AD8F8DDC208C41BB00D3BEEE /* Assets.xcassets */,
-				AD8F8DDE208C41BB00D3BEEE /* LaunchScreen.storyboard */,
 				AD8F8DE1208C41BB00D3BEEE /* Info.plist */,
 			);
 			path = Assignment2;
@@ -123,6 +184,14 @@
 				AD8F8DF7208C41BC00D3BEEE /* Info.plist */,
 			);
 			path = Assignment2UITests;
+			sourceTree = "<group>";
+		};
+		B260016B20B3FDFC00E3C93A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B260016C20B3FDFC00E3C93A /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,8 +256,12 @@
 		AD8F8DCA208C41BB00D3BEEE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					memoryScore,
+					score,
+				);
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = user138925;
 				TargetAttributes = {
 					AD8F8DD1208C41BB00D3BEEE = {
@@ -232,9 +305,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD8F8DE0208C41BB00D3BEEE /* LaunchScreen.storyboard in Resources */,
+				AD824D1B20B83E7800DB6619 /* Main.storyboard in Resources */,
+				AD824D1C20B83E7800DB6619 /* LaunchScreen.storyboard in Resources */,
 				AD8F8DDD208C41BB00D3BEEE /* Assets.xcassets in Resources */,
-				AD8F8DDB208C41BB00D3BEEE /* Main.storyboard in Resources */,
+				B260016820B3F88400E3C93A /* songs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +334,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD8F8DD8208C41BB00D3BEEE /* ViewController.swift in Sources */,
+				B2C2A01620A18786006950B6 /* UQCharactersTableViewController.swift in Sources */,
+				AD9404D720B7C5D200A7D9A1 /* NegTriviaViewController.swift in Sources */,
+				AD2EC48A20ABF0B50071E34D /* NegCharDetailsViewController.swift in Sources */,
+				AD2EC48820ABEF800071E34D /* NegCharactersTableViewController.swift in Sources */,
+				B214FA5E20AAD2CB00B67237 /* T-UQCharDetailsViewController.swift in Sources */,
+				AD2FD6C620AFE59A00A2303A /* NegMemoryViewController.swift in Sources */,
+				B2C2A00E20A18045006950B6 /* launchScreenViewController.swift in Sources */,
+				B214FA5C20AAB5BA00B67237 /* Characters.swift in Sources */,
+				B2C2A01220A1824E006950B6 /* taskScreen2ViewController.swift in Sources */,
+				AD4DA08720B02BF900A3BC41 /* UQMemoryViewController.swift in Sources */,
+				B260016320B3F61D00E3C93A /* UQSoundboardViewController.swift in Sources */,
+				B260016F20B40C7B00E3C93A /* NegSoundboardViewController.swift in Sources */,
 				AD8F8DD6208C41BB00D3BEEE /* AppDelegate.swift in Sources */,
+				AD24140520B7F245001560F1 /* UQTriviaViewController.swift in Sources */,
+				B2C2A01820A18D0E006950B6 /* CharactersTableViewCell.swift in Sources */,
+				AD24140720B7F38B001560F1 /* UQTriviaResultsViewController.swift in Sources */,
+				B2C2A01020A1805C006950B6 /* taskScreenViewController.swift in Sources */,
+				AD9404D920B7C94C00A7D9A1 /* NegTriviaResultsViewController.swift in Sources */,
+				AD2EC48620ABED5E0071E34D /* NegCharacters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,18 +388,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AD8F8DD9208C41BB00D3BEEE /* Main.storyboard */ = {
+		AD824D1720B83E7700DB6619 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AD8F8DDA208C41BB00D3BEEE /* Base */,
+				AD824D1820B83E7700DB6619 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AD8F8DDE208C41BB00D3BEEE /* LaunchScreen.storyboard */ = {
+		AD824D1920B83E7800DB6619 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AD8F8DDF208C41BB00D3BEEE /* Base */,
+				AD824D1A20B83E7800DB6619 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -329,6 +421,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -336,6 +429,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -386,6 +480,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -393,6 +488,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -429,6 +525,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24SM6522LU;
 				INFOPLIST_FILE = Assignment2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = deakin.Assignment2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +541,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 24SM6522LU;
 				INFOPLIST_FILE = Assignment2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = deakin.Assignment2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
